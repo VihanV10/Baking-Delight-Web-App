@@ -1,0 +1,43 @@
+p {
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+  }
+  
+  /* Apply styles to the form */
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Apply styles to labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Apply styles to form inputs and textarea */
+  input[type="name"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the submit button */
+  .button {
+    background-color: #ffca28;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
